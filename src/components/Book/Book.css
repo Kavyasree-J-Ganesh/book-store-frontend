@@ -1,0 +1,87 @@
+.book{
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.book_image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.book_details{
+    display:flex;
+    flex-direction: column;
+    padding: 9px 20px;
+}
+
+.book_details >*:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.book_details_heading{
+    text-align: left;
+    font: normal normal normal 18px/19px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.book_details_author{
+    font: normal normal normal 12px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+    
+}
+
+.book_price >*:not(:last-child) {
+    margin-right: 5px
+}
+
+.book_details_price{
+    font: normal normal bold 14px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    font-weight: 600
+}
+
+.book_details_discount_price {
+    text-decoration: line-through;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.book_review{
+    display: flex;
+    align-items: center;
+}
+
+.book_review >*:not(:last-child){
+   margin-right: 5px;
+}
+
+.book_review_value{
+    font: normal normal bold 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #388E3C;
+    padding: 2px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.book_review_count{
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
